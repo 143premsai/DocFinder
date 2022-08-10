@@ -2,7 +2,7 @@
 
 ### Login
 - Sample User login
-- Email: user@gmail.com
+- Email: user@docfinder.com
 - Password: User#123
 
 ### Project Tools
