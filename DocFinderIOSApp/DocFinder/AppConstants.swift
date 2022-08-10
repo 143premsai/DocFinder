@@ -7,7 +7,7 @@
 import Foundation
 class AppConstants {
     
-    static let baseUrl = "http://iosdocfinder.000webhostapp.com/"
+    static let baseUrl = "https://143premsai.xyz/"
     
     static let register = "register.php"
     static let login = "login.php"
