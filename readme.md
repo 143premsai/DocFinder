@@ -1,5 +1,10 @@
 ## IOS Capstone Doc Finder Application
 
+### Login
+- Sample User login
+- Email: user@gmail.com
+- Password: User#123
+
 ### Project Tools
 - XAMPP
 - XCode
