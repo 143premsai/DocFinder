@@ -10,7 +10,7 @@ class DoctorDetailsVC: UIViewController {
     
     
     @IBOutlet weak var doctorName: UILabel!
-    @IBOutlet weak var doctorPhonw: UILabel!
+    @IBOutlet weak var doctorPhone: UILabel!
     @IBOutlet weak var doctorType: UILabel!
     @IBOutlet weak var doctorLocation: UIButton!
     
@@ -24,7 +24,7 @@ class DoctorDetailsVC: UIViewController {
     
     func setUpUI() {
         self.doctorName.text = "Dr.\(self.doctorDetails?.name ?? "")"
-        self.doctorPhonw.text = self.doctorDetails?.phone
+        self.doctorPhone.text = self.doctorDetails?.phone
         self.doctorLocation.setTitle("\(self.doctorDetails?.address ?? "") ,\(self.doctorDetails?.city ?? "")", for: .normal)
         self.doctorType.text = self.doctorDetails?.specialist
     }

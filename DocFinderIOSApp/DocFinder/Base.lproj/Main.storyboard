@@ -722,7 +722,7 @@
                                 <rect key="frame" x="15" y="128.66666666666666" width="384" height="30"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill.viewfinder" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="TGk-wG-vdu">
-                                        <rect key="frame" x="5" y="3.6666666666666767" width="25" height="23"/>
+                                        <rect key="frame" x="5" y="4.0000000000000195" width="25" height="23"/>
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="25" id="IND-q4-iUd"/>
@@ -1123,12 +1123,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Surgeon specialist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxF-iN-tTd">
-                                <rect key="frame" x="25" y="224" width="285" height="33"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xxg-if-RSs">
                                 <rect key="frame" x="25" y="310" width="20" height="17.000000000000028"/>
                                 <color key="tintColor" systemColor="labelColor"/>
@@ -1201,6 +1195,12 @@
                                     <action selector="docMapAction:" destination="bkB-vE-ZK5" eventType="touchUpInside" id="EsC-Ns-Khr"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Surgeon specialist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxF-iN-tTd">
+                                <rect key="frame" x="25" y="267" width="285" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P5d-uK-bCY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1245,7 +1245,7 @@
                     <connections>
                         <outlet property="doctorLocation" destination="nvZ-sY-0bU" id="ao7-EE-b6N"/>
                         <outlet property="doctorName" destination="MhL-E3-E7y" id="aqs-oq-KX4"/>
-                        <outlet property="doctorPhonw" destination="ekW-hV-P0L" id="nyf-Z8-O9X"/>
+                        <outlet property="doctorPhone" destination="ekW-hV-P0L" id="U5i-U4-bZi"/>
                         <outlet property="doctorType" destination="bxF-iN-tTd" id="ent-XZ-KXH"/>
                     </connections>
                 </viewController>
