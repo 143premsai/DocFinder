@@ -41,7 +41,7 @@ class LoginVC: UIViewController {
             Utility.toastViewForNavigationBar(messsage: "Please enter an email", view: self.view)
         }else if (!validateEmail(enteredEmail: userNameTF.text!)){
             Utility.toastViewForNavigationBar(messsage: "Invalid email format\nTry again!!!", view: self.view)
-        }else if self.userNameTF.text!.count == 0 {
+        }else if self.passwordTF.text!.count == 0 {
             Utility.toastViewForNavigationBar(messsage: "Please enter your password", view: self.view)
         }else{
             self.loginApiCall()

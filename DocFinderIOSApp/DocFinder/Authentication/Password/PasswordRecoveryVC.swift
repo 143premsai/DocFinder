@@ -40,6 +40,8 @@ class PasswordRecoveryVC: UIViewController {
             Utility.toastViewForNavigationBar(messsage: "Invalid email format", view: self.view)
         }else if passwordTF.text?.count == 0 {
             Utility.toastViewForNavigationBar(messsage: "Please enter your password", view: self.view)
+        }else if (passwordTF.text!.count < 5){
+            Utility.toastViewForNavigationBar(messsage: "Password should contain atleast 5 characters", view: self.view)
         }else if passwordTF.text! != self.retypePasswordTF.text! {
             Utility.toastViewForNavigationBar(messsage: "Passwords are not matching", view: self.view)
         }else{
